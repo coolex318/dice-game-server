@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig/tsconfig.node.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "composite": true,
+    "tsBuildInfoFile": "./tsconfig.tsBuildInfo",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["test/**/*.ts"],
+  "references": []
+}
